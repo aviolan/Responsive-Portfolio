@@ -200,3 +200,5 @@ footer{
     text-align: center;
     border-top: 10px solid #4aaaa5;
 }
+
+@media screen and (min-width: 980px)
