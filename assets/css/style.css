@@ -217,19 +217,43 @@ body {
   }
   
 @media screen and (min-width: 980px){
+  #masthead{
+    overflow: unset;
+  }
 
+  #logo{
+    width: 100%;
+    max-width: 300px;
+    margin-left: 20px;
+  }
+
+  div.container{
+    padding-bottom: 12px;
+  }
+  #main-container{
+    padding-top: 0px;
+    width: 100%;
+    max-width: 800px;
+    width: 650px;
+    height: 1000px;
+    float: left;
+    margin-left: 20px;
+  }
 }
 
 @media screen and (min-width: 768px){
-  #masthead, #logo{
+  #masthead{
+    overflow: unset;
+  }
+
+  #logo{
     width: 100%;
     max-width: 300px;
+    margin-left: 20px;
   }
-  nav, nav a{
-    float: right;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    width: 100%;
+
+  div.container{
+    padding-bottom: 12px;
   }
   #main-container{
     padding-top: 0px;
@@ -241,16 +265,17 @@ body {
     #masthead, #logo{
       position: static;
       width: 100%;
+      overflow: unset;
     }
     nav, nav a{
       text-align: center;
       float: none;
       padding-top: 20px;
       padding-bottom: 10px;
-      width: 100%;
+      max-width: 960px;
     }
     #main-container{
-      padding-top: 0px;
+      padding-top: 20px;
       width: 100%;
     }
   }
