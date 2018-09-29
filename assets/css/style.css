@@ -221,30 +221,36 @@ body {
 }
 
 @media screen and (min-width: 768px){
-    #logo{
-      margin-top: 0px;
-      float: left;
-      width: 300px;
-      height: 79px;
-    }
-    nav, nav a{
-      float: right;
-    }
+  #masthead, #logo{
+    width: 100%;
+    max-width: 300px;
+  }
+  nav, nav a{
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+  #main-container{
+    padding-top: 0px;
+    width: 100%;
+  }
   }
 
 @media screen and (min-width: 640px){
     #masthead, #logo{
       position: static;
       width: 100%;
-      overflow: unset;
     }
     nav, nav a{
       text-align: center;
       float: none;
       padding-top: 20px;
       padding-bottom: 10px;
+      width: 100%;
     }
     #main-container{
       padding-top: 0px;
+      width: 100%;
     }
   }
