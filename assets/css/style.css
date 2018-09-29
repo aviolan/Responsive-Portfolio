@@ -216,20 +216,35 @@ body {
     border: 0 none;
   }
   
-@media screen and (max-width: 980px){
-    #masthead, #logo, nav, nav a {
-      position: static;
+@media screen and (min-width: 980px){
+
+}
+
+@media screen and (min-width: 768px){
+    #logo{
+      margin-top: 0px;
+      float: left;
+      width: 300px;
+      height: 79px;
+    }
+    nav, nav a{
+      float: right;
     }
   }
 
-  @media screen and (max-width: 768px){
-    #masthead, #logo, nav, nav a {
+@media screen and (min-width: 640px){
+    #masthead, #logo{
       position: static;
+      width: 100%;
+      overflow: unset;
     }
-  }
-
-  @media screen and (max-width: 640px){
-    #masthead, #logo, nav, nav a {
-      position: static;
+    nav, nav a{
+      text-align: center;
+      float: none;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    #main-container{
+      padding-top: 0px;
     }
   }
